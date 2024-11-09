@@ -1,0 +1,35 @@
+{
+  "name": "botdens",
+  "version": "1.0.0",
+  "description": "Discord botdens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.17.0",
+    "@distube/soundcloud": "^2.0.3",
+    "@distube/spotify": "^2.0.2",
+    "@distube/youtube": "^1.0.4",
+    "@distube/yt-dlp": "^2.0.1",
+    "@distube/ytdl-core": "^4.14.4",
+    "discord.js": "^14.7.1",
+    "distube": "^5.0.4",
+    "dotenv": "^16.0.3",
+    "ffmpeg": "^0.0.4",
+    "formidable": "^3.5.1",
+    "libsodium-wrappers": "^0.7.11",
+    "node-html-parser": "^6.1.5",
+    "node-opus": "^0.3.3",
+    "nodemon": "^3.1.7",
+    "opusscript": "^0.0.8",
+    "prism-media": "^1.3.5",
+    "superagent": "^10.1.0"
+  }
+}
