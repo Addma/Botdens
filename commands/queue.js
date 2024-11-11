@@ -23,4 +23,7 @@ module.exports = {
 		}
 
 	},
+	help : () => {
+        return `?${module.exports.name} (?${module.exports.aliases[0]}) - Lists the queue.`
+    }
 };

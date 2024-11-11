@@ -42,4 +42,7 @@ module.exports = {
 		}
 
 	},
+	help : () => {
+        return `?${module.exports.name} (?${module.exports.aliases[0]}) - Skips current song. Can also skip all songs with all param. Ex. \"?${module.exports.name} all\", or just \"?${module.exports.name}\"`
+    }
 };

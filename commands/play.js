@@ -16,4 +16,7 @@ module.exports = {
             message.channel.send(`ERROR PLAYING VIDEO:  ${err.errorCode || err}`);
 		});
 	},
+	help : () => {
+        return `?${module.exports.name} {query} (?${module.exports.aliases[0]}) - Plays a song. Ex. \"?${module.exports.name} Michael Jackson - Beat it\"`
+    }
 };

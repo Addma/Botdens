@@ -21,5 +21,8 @@ module.exports = {
             message.channel.send(`${client.emotes.error} | Error`);
         }
 
-	}
+	},
+    help : () => {
+        return `?${module.exports.name} (?${module.exports.aliases[0]}) - Jump to song in queue Ex. \"?${module.exports.name} 10\" | Immediately jumps to #10 song and skips current song`
+    }
 }

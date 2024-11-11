@@ -23,4 +23,7 @@ module.exports = {
 			message.channel.send(`${client.emotes.error} | Error!`)
 		}
 	},
+	help : () => {
+        return `?${module.exports.name} (?${module.exports.aliases[0]}) - Pauses current song.`
+    }
 };

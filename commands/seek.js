@@ -43,4 +43,7 @@ module.exports = {
 		}
 
 	},
+	help : () => {
+        return `?${module.exports.name} (?${module.exports.aliases[0]}) - Move to a certain time in current song playing. Strictly formatted to HH:MM:SS. Ex. ?${module.exports.name} 01:10 (Moves to 1min 10 secs into current song)`
+    }
 };

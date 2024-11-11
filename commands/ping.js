@@ -7,4 +7,7 @@ module.exports = {
 	async execute(interaction) {
 		await interaction.reply('Pong!');
 	},
+	help : () => {
+        return `?${module.exports.name} (?${module.exports.aliases[0]}) - Ping!`
+    }
 };
