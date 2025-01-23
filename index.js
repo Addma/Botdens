@@ -35,8 +35,9 @@ client.DisTube = new DisTube(
 			new YouTubePlugin({
 				cookies: [
 					cookie[0],
-					]
-			  }),
+				],
+				//playerClients: ["IOS", "WEB_CREATOR", "ANDROID", "WEB"],
+			}),
 			  			new SoundCloudPlugin(),
 			new YtDlpPlugin(),
 		  ],
@@ -109,7 +110,7 @@ client.on(Events.InteractionCreate, async interaction => {
 	}
 
 });
-//client.DisTube.on("ffmpegDebug", console.log);
+// client.DisTube.on("ffmpegDebug", console.log);
 
 client.commands = new Discord.Collection();
 // When the client is ready, run this code (only once)
